@@ -14,7 +14,7 @@ function App() {
     <Provider>
       <Router>
         <div className="App">
-          <Header branding="contactmanager" />
+          <Header branding="CONTACT MANEGER" />
           <div className="container">
             <Switch>
               <Route exact path="/contact/add" component={Addcontact} />
